@@ -1,0 +1,40 @@
+html * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .Team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 30rem;
+  }
+  
+  .Team .identity {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Team img {
+    max-width: 200px;
+  }
+
+  button {
+    display: block;
+    margin-top: 1rem;
+    width: 25%;
+    padding: 0.5rem;
+    background-color: #fc0;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 0 black;
+  }
